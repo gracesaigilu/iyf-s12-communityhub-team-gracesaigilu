@@ -4,7 +4,6 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import Sidebar from './components/Sidebar.jsx';
 import CreatePost from './pages/CreatePost.jsx';
-
 import Posts from './pages/Posts.jsx';
 import PostDetail from './pages/PostDetail.jsx';
 import About from './pages/About.jsx';
@@ -36,10 +35,10 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/posts" element={<Posts posts={posts} />} />
-              <Route path="/posts/:id" element={<PostDetail posts={posts} />} />
-              <Route path="/create" element={<CreatePostPage onAddPost={handleAddPost} />} />
-              <Route path="/about" element={<About />} />
-            </Routes>
+          <Route path="/posts/:id" element={<PostDetail posts={posts} />} />
+<Route path="/create" element={<CreatePost onAddPost={handleAddPost} />} />
+<Route path="/about" element={<About />} />
+       </Routes>
           </main>
         </div>
 
