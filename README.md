@@ -44,3 +44,6 @@ IYF Weekend Academy Season 12.
 ## Workflow
 Every change goes branch → PR → teammate review → merge.
 No direct pushes to `main`.
+## Lighthouse Accessibility Audit (Week 9)
+- **Before Score:** 78% (Fixed contrast issues and missing aria-labels)
+- **After Score:** 98%
