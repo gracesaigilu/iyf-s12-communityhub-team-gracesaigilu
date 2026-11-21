@@ -38,7 +38,7 @@ export default function App() {
           <Route path="/posts/:id" element={<PostDetail posts={posts} />} />
 <Route path="/create" element={<CreatePost onAddPost={handleAddPost} />} />
 <Route path="/about" element={<About />} />
-       </Routes>
+         </Routes>
           </main>
         </div>
 
